@@ -1,0 +1,32 @@
+Introduzione al layout CSS
+
+Le tecniche di layout di pagina CSS ci consentono di prendere gli elementi 
+contenuti in una pagina web e controllare dove sono posizionati rispetto ai
+seguenti fattori la loro posizione predefinita nel normale flusso di layout,
+gli altri elementi intorno a loro, il loro contenitore padre e la finestra 
+principale: 
+
+1) Normal flow
+2) The display property
+3) Flexbox
+4) Grid
+5) Floats
+5) Positioning
+7) Table layout
+8) Multiple-column layout
+ 
+ Normal flow:
+ Il flusso normale è il modo in cui il browser dispone le pagine HTML per impostazione predefinita quando non si applica alcuna regola di layout alla pagina. 
+ 
+ 
+ I metodi che possono cambiare il modo in cui gli elementi sono disposti in CSS sono: 
+ 
+ La proprietà display — I valori standard come block, inline o inline-block possono cambiare il modo in cui gli
+ elementi si comportano nel flusso normale, ad esempio, facendo in modo che un elemento a livello di blocco si comporti come un elemento inline-level (vedi Tipi di caselle CSS per maggiori 
+ informazioni). 
+ 
+ Floats: l'applicazione di un valore float come quello sinistro può far sì che gli elementi a livello di blocco si avvolgano lungo un lato di un elemento, come il modo in cui le immagini a volte hanno del testo che fluttua intorno a loro nei layout delle riviste.
+
+ 
+ La proprietà position — Consente di controllare con precisione il posizionamento delle caselle all'interno di altre caselle. il posizionamento statico è l'impostazione predefinita nel flusso normale, ma puoi fare in modo che gli elementi siano disposti in modo diverso utilizzando altri valori, ad esempio, come fissati nella parte superiore della finestra del browser.
+ 

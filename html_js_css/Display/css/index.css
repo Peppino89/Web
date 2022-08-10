@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container{
+    height: 400px;
+    width:350px;
+    border: solid 2px green;
+    display: flex;
+    align-items: center;
+}
+
+.container div{
+    height: 200px;
+    width: 180px;
+    border:solid 2px red;
+    display: flex;
+    justify-content: flex-start; /* sposta il contenuto lungo l'asse x*/
+    align-items: flex-start;    /* sposta il contenuto lungo l'asse y*/
+}

@@ -1,0 +1,58 @@
+comandi abbrevazione creazione tag html
+
+1) tag1>tag2 ->crea un tag1 div contente all'interno un tag a
+
+Esempio div>a>  
+
+Risultato:
+
+<div><a href=""></a></div>
+
+
+2) tag1.pippo>tag2.pluto -> crea un tag1 con classe "pippo"contente all'interno un tag2 a con classe "pluto"
+
+Esempio  div.>a.ciccio>   
+
+Risultato:
+
+<div class="container"><a href="" class="ciccio"></a></div>
+
+
+
+3) tag1>tag2+tag3 crea un tag1 con all'interno un tag2 e un tag3
+
+Esempio div>a+p  
+
+Risultato:
+
+ <div>
+   <a href=""></a>
+   <li></li>
+</div>
+
+4)tag1*n crea n tag1
+
+Esempio div*2
+
+Risultato:
+
+<div></div>
+<div></div>
+
+5) tag1*n>tag2+tag3 crea n tag1 che hanno all'interno il tag2 e il tag3
+   oppure equivalentemente 
+   (tag1>tag2+tag3)*n
+
+Esempio div*2>a+p oppure (div>a+p)*2
+
+Risultato:
+<div>
+<a href=""> </a>
+<p></p>
+</div>
+
+<div>
+<a href=""> </a>
+<p></p>
+</div>
+
